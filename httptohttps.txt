@@ -3,6 +3,8 @@ _____________________________________
 Open Apache configuration file : /etc/httpd/conf/httpd.conf
 Add a rewrite rule to the VirtualHost section as below
 
+2nd change
+
 <VirtualHost *:80>
 RewriteEngine On
 RewriteCond %{HTTP:X-Forwarded-Proto} =http
