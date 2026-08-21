@@ -9,6 +9,9 @@ Add a rewrite rule to the VirtualHost section as below
 
 5th change
 
+
+6th change
+
 <VirtualHost *:80>
 RewriteEngine On
 RewriteCond %{HTTP:X-Forwarded-Proto} =http
